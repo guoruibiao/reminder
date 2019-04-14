@@ -60,7 +60,7 @@ func getEvents(redisConfigs RedisConfigs, master string, starttime string, endti
 func main() {
 	app := gin.Default()
 	//加载模板
-	app.Static("/static", "/Users/biao/go/src/memory/static")
+	app.Static("/static", serverConfigs.static)
 
 
 	app.GET("/ping", func(ctx *gin.Context) {

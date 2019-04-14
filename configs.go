@@ -7,4 +7,5 @@ var redisConfigs = RedisConfigs{
 
 var serverConfigs = ServerConfigs{
 	addr: "127.0.0.1:8080",
+	static:"/Users/biao/go/src/reminder/static",
 }

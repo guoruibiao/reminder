@@ -19,4 +19,5 @@ type RedisConfigs struct {
 }
 type ServerConfigs struct {
 	addr string
+	static string
 }
