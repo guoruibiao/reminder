@@ -1,0 +1,30 @@
+<link rel="stylesheet" href="./index.css">
+<section class="intro">
+  <div class="container">
+    <h1 onclick="addEvent()">艾宾浩斯防遗忘事件一览 &darr;</h1>
+  </div>
+  <h4 id="btn_addevent" href = "javascript:void(0)" onclick = "">添加</h4>
+        <div id="light" class="white_content">
+          <span href = "javascript:void(0)" id="closeform">❌</span>
+          <h3>添加备忘事件</h3>
+            <input type="text" placeholder="title" id="input_title"><br><br>
+            <textarea placeholder="description" id="input_description"></textarea>
+            <br><br>
+            <button id="btn_generate">生成提醒</button>
+        </div> 
+        <div id="fade" class="black_overlay"></div> 
+</section>
+<section class="timeline">
+  <ul id="bucket">
+    <li>
+      <div>
+          <time>1934</time> At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium
+      </div>
+    </li>
+  </ul>
+</section>
+  <script
+  src="https://code.jquery.com/jquery-3.4.0.js"
+  integrity="sha256-DYZMCC8HTC+QDr5QNaIcfR7VSPtcISykd+6eSmBW5qo="
+  crossorigin="anonymous"></script>
+  <script src="./index.js"></script>
